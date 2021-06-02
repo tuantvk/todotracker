@@ -1,6 +1,5 @@
 import { computed, action, runInAction, makeAutoObservable } from 'mobx';
 import { Todos } from '../database';
-import moment from 'moment';
 
 class TodosStore {
   todos = [];
@@ -56,14 +55,9 @@ class TodosStore {
   addTodo(value) {
     // Update data to store
     let newTodos = [...this.todos]; // newTodos = coppy của this.todos (không nên chỉnh sửa trực tiếp vào trong this.todos)
-    newTodos.push({
-      ...value,
-      id: String(moment().unix()),
-    });
+    let result = Todos.insert(value)[0];
+    newTodos.push(result);
     this.todos = newTodos;
-
-    // Save data to local
-    Todos.insert(value);
   }
 
   updateTodoCompleted(item) {
