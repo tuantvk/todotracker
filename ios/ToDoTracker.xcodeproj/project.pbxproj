@@ -14,6 +14,7 @@
 		4AA2E52A48514F5CF79F3234 /* libPods-ToDoTracker-ToDoTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A44481BE02BBD8A504B517B4 /* libPods-ToDoTracker-ToDoTrackerTests.a */; };
 		6A22206ACE4243EC97000160 /* Poppins_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A438E6F9907842DA844CCA9F /* Poppins_Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8E1791C32668FB8900C23863 /* correct_soundeffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E1791C22668FB8900C23863 /* correct_soundeffect.mp3 */; };
 		C588AA77FFC8E963C3C519E8 /* libPods-ToDoTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900D22057BC02DA9F2652C72 /* libPods-ToDoTracker.a */; };
 		E5992863D92947D9994E3F62 /* Poppins_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B66A34CE5E0E40B8B25B73E1 /* Poppins_Bold.ttf */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		77107792E1E24DFBBDD1746E /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		80F9B901AE497C3B8CA6B5F1 /* Pods-ToDoTracker-ToDoTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoTracker-ToDoTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-ToDoTracker-ToDoTrackerTests/Pods-ToDoTracker-ToDoTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ToDoTracker/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1791C22668FB8900C23863 /* correct_soundeffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = correct_soundeffect.mp3; path = ../android/app/src/main/res/raw/correct_soundeffect.mp3; sourceTree = "<group>"; };
 		900D22057BC02DA9F2652C72 /* libPods-ToDoTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToDoTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99049AE23ADA46658DE563B5 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		A1E1C25B8C68411196A3DC53 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		13B07FAE1A68108700A75B9A /* ToDoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				8E1791C22668FB8900C23863 /* correct_soundeffect.mp3 */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -289,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1791C32668FB8900C23863 /* correct_soundeffect.mp3 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				E5992863D92947D9994E3F62 /* Poppins_Bold.ttf in Resources */,
