@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text as RNText, StyleSheet } from 'react-native';
+import { Text as RNText, StyleSheet, Platform } from 'react-native';
 
 const Text = ({ bold, style, children, ...rest }) => {
   return (
@@ -11,10 +11,11 @@ const Text = ({ bold, style, children, ...rest }) => {
 
 const styles = StyleSheet.create({
   bold: {
-    fontFamily: 'Poppins_Bold',
+    fontFamily: Platform.OS === 'android' ? 'Poppins_Bold' : 'Poppins Bold',
   },
   regular: {
-    fontFamily: 'Poppins_Regular',
+    fontFamily:
+      Platform.OS === 'android' ? 'Poppins_Regular' : 'Poppins Regular',
   },
 });
 
